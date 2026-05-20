@@ -1,0 +1,5 @@
+n = int(input("digite um número: "))
+print(f"{f' A tabuada do {n} ':=^30}")
+print(f"{n} x {1} = {n * 1}")
+print(f"{n} x {5} = {n * 5}")
+print(f"{n} x {10} = {n * 10}")
