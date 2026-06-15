@@ -1,0 +1,8 @@
+classificacao = ("Palmeiras", "Flamengo", "Fluminense", "Athletico Paranaense", "RB Bragantino", "Bahia", "Coritiba", "São Paulo", "Atlético Mineiro", "Corinthians", "Cruzeiro", "Botafogo", "Vitória", "Internacional", "Santos", "Grêmio", "Vasco da Gama", "Remo", "Mirassol", "Chapecoense")
+print(f"os cinco primeiros colocados são: {classificacao[:5]}")
+print("-=-" * 20)
+print(f"os ultimos 4 são: {classificacao[- 4: ]}")
+print("-=-" * 20)
+print(f"Times em ordem alfabética {sorted(classificacao)}")
+print("-=-" * 20)
+print(f'O Chapecoense está na {classificacao.index("Chapecoense") + 1}º posição')
